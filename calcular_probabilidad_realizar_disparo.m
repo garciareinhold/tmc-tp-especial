@@ -44,5 +44,7 @@ function [probabilidad_actual, probabilidades_parciales] = calcular_probabilidad
   
   probabilidad_actual=casos_favorables/total_pedidos;  
   probabilidades_parciales = cat(1, probabilidades_parciales, probabilidad_actual);
-
+  
+  end
+  
 end
